@@ -11,7 +11,6 @@ function App() {
   }
 
   const handleTextareaChange = event => {
-    console.log(event.target.value)
     setTextInput(event.target.value);
   };
 
