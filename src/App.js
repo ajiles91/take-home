@@ -16,7 +16,6 @@ function App() {
   };
 
   const handleSubmit = event => {
-    console.log('submit:' ,textInput)
     let uppercaseText = textInput.toUpperCase()
     let lowercaseText = textInput.toLowerCase()
     if(conversionMode === 'uppercase'){
